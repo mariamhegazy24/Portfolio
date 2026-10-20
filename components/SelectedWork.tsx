@@ -37,7 +37,7 @@ export function SelectedWork() {
                 ) : null}
                 <p className="text-[0.95rem] text-mute">{p.stack.join(", ")}</p>
                 <Link href={`/projects/${p.slug}`} className="link mt-1 w-fit py-1">
-                  Read the case study<span className="sr-only">: {p.title}</span>
+                  View project<span className="sr-only">: {p.title}</span>
                 </Link>
               </div>
             </article>
