@@ -1,0 +1,13 @@
+# CLAUDE.md — engineering rules
+- Do not install dependencies or modify the repo until Mariam approves the plan.
+- Never invent projects, metrics, clients, links or screenshots. Mark gaps `[NEEDS INPUT]`.
+- Keep stacks accurate (React/Vite/Nuxt projects are never labelled Next.js).
+- Company work: no code, private repos, internal data; only approved screenshots.
+- Phone number is never rendered publicly. Public CV file must omit it.
+- Next.js App Router, strict TypeScript (no `any`), Tailwind, Motion for React. Server Components by default; small client boundaries.
+- Respect `prefers-reduced-motion`; WCAG 2.2 AA; transform/opacity animations only.
+- Secrets stay server-side; never `NEXT_PUBLIC_` for keys.
+- Excluded: the Nuzul project. Todo-list is out for now. AI Chat Assistant goes in More Projects only (verified facts only; AI provider unconfirmed).
+- Never claim deployed/tested/email-working without actually doing it.
+- Workflow: verify one project at a time; ask Mariam one question at a time; never publish unapproved names, screenshots or company claims (also check alt text and filenames).
+- Accent: restrained teal only; Aileron 400/700; #242424 background.

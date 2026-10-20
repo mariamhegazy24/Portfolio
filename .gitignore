@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+# Video walkthroughs — too large for GitHub (host externally and drop into /public locally)
+*.mp4
